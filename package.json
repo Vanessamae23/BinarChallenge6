@@ -1,0 +1,26 @@
+{
+  "name": "challenge-5",
+  "version": "1.0.0",
+  "description": "Binar Academy Coding bootcamp FSW",
+  "main": "games.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vanessamae23/Binar-Academy-Challenge-4.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vanessamae23/Binar-Academy-Challenge-4/issues"
+  },
+  "homepage": "https://github.com/Vanessamae23/Binar-Academy-Challenge-4#readme",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "pg": "^8.7.3",
+    "sequelize": "^6.17.0"
+  }
+}

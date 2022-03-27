@@ -1,0 +1,21 @@
+.body {
+    background-color: #DEB887;
+}
+
+img {
+    width: 80%;
+}
+
+#hasil {
+    font-size: 2rem;
+}
+
+.tombol {
+    background-color: transparent;
+    border: none
+}
+
+#tombolmusuh {
+    background-color: transparent;
+    border: none;
+}
