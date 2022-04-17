@@ -13,21 +13,14 @@
 </head>
 
 <body>
-    
     <%- include('partials/navbar')  %>
-    <% if (messages.error) { %>
-        <div class="alert alert-danger" role="alert">
-          <%= messages.error %>
-        </div>
-      <% } %>
-      <div class="box">
     <div class="container d-flex justify-content-center align-items-center">
         <div class="row flex-fill">
             <div class="col-md-6 offset-md-3 col-xl-8 offset-xl-2">
                 <div class="card shadow mb-3" style="margin-top: 100px">
                     <div class="card-body">
-                        <h5 class="card-title">Login</h5>
-                        <form action="/login" method="POST" class="validated-form" novalidate>
+                        <h5 class="card-title">Register for an account</h5>
+                        <form action="/register" method="POST" class="validated-form" novalidate>
                             <div class="mb-3">
                                 <label class="form-label" for="username">Username</label>
                                 <input class="form-control" autofocus type="text" id="username" name="username"></input>
@@ -42,14 +35,12 @@
                                     Looks good!
                                 </div>
                             </div>
-                            <a href="/register">Create a new account</a>
-                            <button class="btn btn-success col-12 my-2">Login</button>
+                            <button class="btn btn-success col-12 my-2">Register</button>
                         </form>
                     </div>
 
                 </div>
             </div>
-        </div>
         </div>
     </div>
 

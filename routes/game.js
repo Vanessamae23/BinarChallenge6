@@ -1,8 +1,10 @@
 const express = require('express');
 const router = express.Router();
+const restrict = require("../middlewares/restrict");
+const apiRestrict = require("../middlewares/apiRestrict");
 const {Game, Biodata, History} = require('../models');
 
-router.get('/dashboards', async (req, res) => {
+router.get('/dashboards', restrict, async (req, res) => {
     const data = await History.findAll({
     });
     const biodata = await Biodata.findAll({})
